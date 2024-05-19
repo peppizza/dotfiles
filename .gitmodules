@@ -10,3 +10,6 @@
 [submodule ".config/tmux/plugins/tmux"]
 	path = .config/tmux/plugins/tmux
 	url = https://github.com/catppuccin/tmux
+[submodule ".config/tmux/plugins/tmux-yank"]
+	path = .config/tmux/plugins/tmux-yank
+	url = https://github.com/tmux-plugins/tmux-yank
