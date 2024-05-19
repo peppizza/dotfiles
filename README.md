@@ -4,16 +4,8 @@ everyone else has one might as well too
 
 ## Requirements
 
-### Git
-
 ```
-sudo pacman -S git
-```
-
-### Stow
-
-```
-sudo pacman -S stow
+sudo pacman -S git stow fzf eza zoxide zsh tmux alacritty
 ```
 
 ## Installation
