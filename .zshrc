@@ -39,13 +39,15 @@ zinit cdreplay -q
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Up arrow: ^[[A, Down arrow: ^[[B
+# Up arrow: ^[[A, Down arrow: ^[[B, CTRL + Left arrow: ^[[1;5D, CTRL + Right arrow: ^[[1;5C
 # Keybindings
 bindkey -e
 bindkey "^[[A" history-search-backward
 bindkey "^p" history-search-backward
 bindkey "^[[B" history-search-forward
 bindkey "^n" history-search-forward
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
 
 
 # History
@@ -74,6 +76,7 @@ zstyle ":fzf-tab:complete:__zoxide_z:*" fzf-preview "eza -1 --color=always $real
 
 # Aliases
 alias ls="eza"
+alias c="clear"
 
 # Shell integrations
 eval "$(fzf --zsh)"
