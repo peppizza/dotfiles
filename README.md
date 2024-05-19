@@ -5,7 +5,7 @@ everyone else has one might as well too
 ## Requirements
 
 ```
-sudo pacman -S git stow fzf eza zoxide zsh tmux alacritty
+$ sudo pacman -S git stow fzf eza zoxide zsh tmux alacritty
 ```
 
 ## Installation
