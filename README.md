@@ -12,7 +12,7 @@ $ sudo pacman -S git stow fzf eza zoxide zsh tmux alacritty
 
 ```
 $ cd $HOME
-$ git clone https://github.com/peppizza/dotfiles
+$ git clone --recurse-submodules https://github.com/peppizza/dotfiles
 $ cd dotfiles
 $ stow .
 ```
