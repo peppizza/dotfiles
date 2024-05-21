@@ -40,3 +40,6 @@ args = ["new-session", "-A", "-D", "-s", "main"]
 decorations = "none"
 startup_mode = "Maximized"
 
+[font]
+size = 14
+
