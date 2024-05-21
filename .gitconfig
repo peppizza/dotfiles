@@ -1,6 +1,7 @@
 [user]
 	email = spencervess@protonmail.com
 	name = Spencer Vess
+	signingkey = 0EFA2F78096BDE48
 [init]
 	defaultBranch = main
 [credential]
@@ -11,3 +12,5 @@
 	insteadOf = kde:
 [url "ssh://git@invent.kde.org/"]
 	pushInsteadOf = kde:
+[commit]
+	gpgsign = true
