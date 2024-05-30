@@ -25,6 +25,7 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
+zinit load atuinsh/atuin
 
 # Add in snippets
 zinit snippet OMZP::git
@@ -81,3 +82,4 @@ alias c="clear"
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+eval "$(atuin init zsh)"
